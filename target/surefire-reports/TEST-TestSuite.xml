@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="156.543" tests="13" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\imsan\Videos\eclipse_ws\carnation24a-master\target\test-classes;C:\Users\imsan\Videos\eclipse_ws\carnation24a-master\target\classes;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\imsan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\imsan\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\imsan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\imsan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\imsan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\imsan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\imsan\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\imsan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\imsan\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\imsan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\imsan\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\imsan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\imsan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\imsan\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\imsan\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\imsan\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\imsan\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\imsan\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\imsan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\imsan\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\imsan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\imsan\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\imsan\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\imsan\AppData\Local\Temp\surefire7318480566893709861\surefirebooter-20250127201928036_3.jar C:\Users\imsan\AppData\Local\Temp\surefire7318480566893709861 2025-01-27T20-19-27_696-jvmRun1 surefire-20250127201928036_1tmp surefire_0-20250127201928036_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\imsan\Videos\eclipse_ws\carnation24a-master\target\test-classes;C:\Users\imsan\Videos\eclipse_ws\carnation24a-master\target\classes;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\imsan\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\imsan\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\imsan\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\imsan\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\imsan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\imsan\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\imsan\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\imsan\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\imsan\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\imsan\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\imsan\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\imsan\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\imsan\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\imsan\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\imsan\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\imsan\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\imsan\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\imsan\.m2\repository\ru\yandex\qatools\ashot\ashot\1.5.4\ashot-1.5.4.jar;C:\Users\imsan\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\imsan\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\imsan\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\imsan\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\imsan\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\imsan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\imsan\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\imsan\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\imsan\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\imsan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-09-17"/>
+    <property name="java.home" value="C:\Users\imsan\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\imsan\Videos\eclipse_ws\carnation24a-master"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\imsan\AppData\Local\Temp\surefire7318480566893709861\surefirebooter-20250127201928036_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23+37"/>
+    <property name="user.name" value="imsan"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-23+37"/>
+    <property name="localRepository" value="C:\Users\imsan\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\imsan\AppData\Local\Temp\"/>
+    <property name="java.version" value="23"/>
+    <property name="user.dir" value="C:\Users\imsan\Videos\eclipse_ws\carnation24a-master"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\imsan\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/imsan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706/jre/bin/server;C:/Users/imsan/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_23.0.0.v20240919-1706/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.9.9\bin;C:\Users\imsan\Videos\allure-2.32.0\allure-2.32.0\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\imsan\AppData\Local\Microsoft\WindowsApps;C:\Users\imsan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\apache-maven-3.9.9\apache-maven\src\bin;C:\Users\imsan\Videos\allure-2.32.0\allure-2.32.0\bin;C:\Users\imsan\AppData\Roaming\npm;;C:\WINDOWS\system32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="23+37"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Add a new config event&quot;, &quot;Config Events&quot;](1)" classname="com.runner.FeatureRunner" time="13.76">
+    <system-out><![CDATA[
+Scenario: Add a new config event                                                &amp#27;[90m# src/test/resources/Features/ConfigEvents.feature:3&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m                                         &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+Project Path: C:\Users\imsan\Videos\eclipse_ws\carnation24a-master
+Navigated to the Config Events page.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI am on the config events page&amp#27;[0m                                            &amp#27;[90m# com.stepdefinitions.ConfigEventsSteps.iAmOnTheConfigEventsPage()&amp#27;[0m
+Project Path: C:\Users\imsan\Videos\eclipse_ws\carnation24a-master
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the Add Config Event button on config event page&amp#27;[0m              &amp#27;[90m# com.stepdefinitions.ConfigEventsSteps.iClickOnAddEventButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the event name as &amp#27;[0m&amp#27;[32m&amp#27;[1m"New Event"&amp#27;[0m                                     &amp#27;[90m# com.stepdefinitions.ConfigEventsSteps.iEnterTheEventNameAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the event description as &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a description of the new event"&amp#27;[0m &amp#27;[90m# com.stepdefinitions.ConfigEventsSteps.iEnterTheEventDescriptionAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Save button on config event page&amp#27;[0m                           &amp#27;[90m# com.stepdefinitions.ConfigEventsSteps.iClickOnSaveEventButton()&amp#27;[0m
+The new config event has been saved successfully.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe new config event should be saved successfully&amp#27;[0m                        &amp#27;[90m# com.stepdefinitions.ConfigEventsSteps.theNewConfigEventShouldBeSavedSuccessfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add a new config expense type&quot;, &quot;Config Expense Types&quot;](2)" classname="com.runner.FeatureRunner" time="11.294">
+    <system-out><![CDATA[
+Scenario: Add a new config expense type                                                              &amp#27;[90m# src/test/resources/Features/ConfigExpenseTypes.feature:3&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m                                                              &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+Navigated to the Config Events page.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI am on the config expense types page&amp#27;[0m                                                          &amp#27;[90m# com.stepdefinitions.ConfigExpenseTypesSteps.iAmOnTheconfigExpenseTypesPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the Add Config expense button on config event page&amp#27;[0m                                 &amp#27;[90m# com.stepdefinitions.ConfigExpenseTypesSteps.iClickOnAddEventButton()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the config expense type name as &amp#27;[0m&amp#27;[32m&amp#27;[1m"New Expense Type"&amp#27;[0m                                     &amp#27;[90m# com.stepdefinitions.ConfigExpenseTypesSteps.iEnterTheEventNameAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the config expense type description as &amp#27;[0m&amp#27;[32m&amp#27;[1m"This is a description of the new expense type"&amp#27;[0m &amp#27;[90m# com.stepdefinitions.ConfigExpenseTypesSteps.iEnterTheEventDescriptionAs(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the Save button on config expense type page&amp#27;[0m                                         &amp#27;[90m# com.stepdefinitions.ConfigExpenseTypesSteps.iClickOnSaveEventButton()&amp#27;[0m
+The new config event has been saved successfully.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe new config expense type should be saved successfully&amp#27;[0m                                      &amp#27;[90m# com.stepdefinitions.ConfigExpenseTypesSteps.theNewconfigExpenseTypeshouldBeSavedSuccessfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successfully updating contact details&quot;, &quot;Update Contact Details&quot;](3)" classname="com.runner.FeatureRunner" time="12.597">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#app div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(2) div.orangehrm-background-container div.orangehrm-card-container div.orangehrm-edit-employee div:nth-of-type(2) div:nth-of-type(1) form.oxd-form div:nth-of-type(3) div.oxd-grid-3.orangehrm-full-width-grid div:nth-of-type(1) div.oxd-input-group.oxd-input-field-bottom-space div:nth-of-type(2) input.oxd-input.oxd-input--active&quot;}&#10;  (Session info: chrome=131.0.6778.265)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [616174f98e8058d3483eb57585895aa4, findElement {using=css selector, value=#app div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(2) div.orangehrm-background-container div.orangehrm-card-container div.orangehrm-edit-employee div:nth-of-type(2) div:nth-of-type(1) form.oxd-form div:nth-of-type(3) div.oxd-grid-3.orangehrm-full-width-grid div:nth-of-type(1) div.oxd-input-group.oxd-input-field-bottom-space div:nth-of-type(2) input.oxd-input.oxd-input--active}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\imsan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49837/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 616174f98e8058d3483eb57585895aa4" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#app div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(2) div.orangehrm-background-container div.orangehrm-card-container div.orangehrm-edit-employee div:nth-of-type(2) div:nth-of-type(1) form.oxd-form div:nth-of-type(3) div.oxd-grid-3.orangehrm-full-width-grid div:nth-of-type(1) div.oxd-input-group.oxd-input-field-bottom-space div:nth-of-type(2) input.oxd-input.oxd-input--active"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [616174f98e8058d3483eb57585895aa4, findElement {using=css selector, value=#app div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(2) div.orangehrm-background-container div.orangehrm-card-container div.orangehrm-edit-employee div:nth-of-type(2) div:nth-of-type(1) form.oxd-form div:nth-of-type(3) div.oxd-grid-3.orangehrm-full-width-grid div:nth-of-type(1) div.oxd-input-group.oxd-input-field-bottom-space div:nth-of-type(2) input.oxd-input.oxd-input--active}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\imsan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49837/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 616174f98e8058d3483eb57585895aa4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:474)
+	at com.testingshastra.pages.ContactDetailsPage.setWorkEmailTextField(ContactDetailsPage.java:188)
+	at com.stepdefinitions.ContactDetailsSteps.i_enter_work_email(ContactDetailsSteps.java:76)
+	at ✽.I enter work email as "user@company.com"(file:///C:/Users/imsan/Videos/eclipse_ws/carnation24a-master/src/test/resources/Features/Contact_Details.feature:14)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Successfully updating contact details         &amp#27;[90m# src/test/resources/Features/Contact_Details.feature:3&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m                 &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI am on the Contact Details page&amp#27;[0m                  &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_am_on_the_contact_details_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter street address 1 as &amp#27;[0m&amp#27;[32m&amp#27;[1m"123 Main St"&amp#27;[0m        &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_street_address_1(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter street address 2 as &amp#27;[0m&amp#27;[32m&amp#27;[1m"Apt 4B"&amp#27;[0m              &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_street_address_2(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter city as &amp#27;[0m&amp#27;[32m&amp#27;[1m"Metropolis"&amp#27;[0m                      &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_city(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter state as &amp#27;[0m&amp#27;[32m&amp#27;[1m"New State"&amp#27;[0m                      &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_state(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter zip code as &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345"&amp#27;[0m                       &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_zip_code(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter home phone as &amp#27;[0m&amp#27;[32m&amp#27;[1m"123-456-7890"&amp#27;[0m              &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_home_phone(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter mobile phone as &amp#27;[0m&amp#27;[32m&amp#27;[1m"987-654-3210"&amp#27;[0m            &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_mobile_phone(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter work phone as &amp#27;[0m&amp#27;[32m&amp#27;[1m"555-555-5555"&amp#27;[0m              &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_work_phone(java.lang.String)&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI enter work email as &amp#27;[0m&amp#27;[31m&amp#27;[1m"user@company.com"&amp#27;[0m          &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_work_email(java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#app div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(2) div.orangehrm-background-container div.orangehrm-card-container div.orangehrm-edit-employee div:nth-of-type(2) div:nth-of-type(1) form.oxd-form div:nth-of-type(3) div.oxd-grid-3.orangehrm-full-width-grid div:nth-of-type(1) div.oxd-input-group.oxd-input-field-bottom-space div:nth-of-type(2) input.oxd-input.oxd-input--active"}
+  (Session info: chrome=131.0.6778.265)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [616174f98e8058d3483eb57585895aa4, findElement {using=css selector, value=#app div:nth-of-type(1) div:nth-of-type(2) div:nth-of-type(2) div.orangehrm-background-container div.orangehrm-card-container div.orangehrm-edit-employee div:nth-of-type(2) div:nth-of-type(1) form.oxd-form div:nth-of-type(3) div.oxd-grid-3.orangehrm-full-width-grid div:nth-of-type(1) div.oxd-input-group.oxd-input-field-bottom-space div:nth-of-type(2) input.oxd-input.oxd-input--active}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\imsan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49837}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49837/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 616174f98e8058d3483eb57585895aa4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:48)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:215)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:727)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:474)
+	at com.testingshastra.pages.ContactDetailsPage.setWorkEmailTextField(ContactDetailsPage.java:188)
+	at com.stepdefinitions.ContactDetailsSteps.i_enter_work_email(ContactDetailsSteps.java:76)
+	at ✽.I enter work email as "user@company.com"(file:///C:/Users/imsan/Videos/eclipse_ws/carnation24a-master/src/test/resources/Features/Contact_Details.feature:14)
+&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI enter other email as &amp#27;[0m&amp#27;[36m&amp#27;[1m"user.other@company.com"&amp#27;[0m   &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_enter_other_email(java.lang.String)&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI click the save button on contact details page&amp#27;[0m   &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_click_the_save_button()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI am logged in to the OrangeHRM&amp#27;[0m                   &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+  &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mI am on the Contact Details page&amp#27;[0m                  &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.i_am_on_the_contact_details_page()&amp#27;[0m
+  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mthe contact details should be saved successfully&amp#27;[0m &amp#27;[90m# com.stepdefinitions.ContactDetailsSteps.the_contact_details_should_be_saved_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify adding a new dependent for employee&quot;, &quot;Update dependent Details&quot;](4)" classname="com.runner.FeatureRunner" time="9.992">
+    <failure message="element not interactable&#10;  (Session info: chrome=131.0.6778.265)&#10;Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [62f125b98a4a1d3826101da88cb3032b, sendKeysToElement {id=f.CCAFE5BFA034CB9180816C02DFA949D6.d.D4B08FBD511B8EAEC7FCD0C0BD167749.e.49, value=[Ljava.lang.CharSequence;@34b87182}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\imsan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49862/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (62f125b98a4a1d3826101da88cb3032b)] -&gt; xpath: //*[@id=&quot;app&quot;]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]/i]&#10;Session ID: 62f125b98a4a1d3826101da88cb3032b" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62f125b98a4a1d3826101da88cb3032b, sendKeysToElement {id=f.CCAFE5BFA034CB9180816C02DFA949D6.d.D4B08FBD511B8EAEC7FCD0C0BD167749.e.49, value=[Ljava.lang.CharSequence;@34b87182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\imsan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49862/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (62f125b98a4a1d3826101da88cb3032b)] -> xpath: //*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]/i]
+Session ID: 62f125b98a4a1d3826101da88cb3032b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+	at com.testingshastra.pages.DependentsPage.setdependentsNameTextField(DependentsPage.java:57)
+	at com.stepdefinitions.DependentsSteps.i_add_a_new_dependent_with_name_and_relationship(DependentsSteps.java:23)
+	at ✽.I add a new dependent with name "John Doe" and relationship "Child"(file:///C:/Users/imsan/Videos/eclipse_ws/carnation24a-master/src/test/resources/Features/Dependents.feature:6)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Verify adding a new dependent for employee                      &amp#27;[90m# src/test/resources/Features/Dependents.feature:3&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m                                   &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI navigate to the dependents page for employee&amp#27;[0m                     &amp#27;[90m# com.stepdefinitions.DependentsSteps.i_navigate_to_the_dependents_page_for_employee_with_emp_number()&amp#27;[0m
+  &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mI add a new dependent with name &amp#27;[0m&amp#27;[31m&amp#27;[1m"John Doe"&amp#27;[0m&amp#27;[31m and relationship &amp#27;[0m&amp#27;[31m&amp#27;[1m"Child"&amp#27;[0m &amp#27;[90m# com.stepdefinitions.DependentsSteps.i_add_a_new_dependent_with_name_and_relationship(java.lang.String,java.lang.String)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=131.0.6778.265)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [62f125b98a4a1d3826101da88cb3032b, sendKeysToElement {id=f.CCAFE5BFA034CB9180816C02DFA949D6.d.D4B08FBD511B8EAEC7FCD0C0BD167749.e.49, value=[Ljava.lang.CharSequence;@34b87182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.265, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\Users\imsan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49862}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49862/devtoo..., se:cdpVersion: 131.0.6778.265, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (62f125b98a4a1d3826101da88cb3032b)] -> xpath: //*[@id="app"]/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[1]/div/div[2]/div/div[2]/div/div/div[2]/i]
+Session ID: 62f125b98a4a1d3826101da88cb3032b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
+	at com.testingshastra.pages.DependentsPage.setdependentsNameTextField(DependentsPage.java:57)
+	at com.stepdefinitions.DependentsSteps.i_add_a_new_dependent_with_name_and_relationship(DependentsSteps.java:23)
+	at ✽.I add a new dependent with name "John Doe" and relationship "Child"(file:///C:/Users/imsan/Videos/eclipse_ws/carnation24a-master/src/test/resources/Features/Dependents.feature:6)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successfully adding an emergency contact&quot;, &quot;Update Emergency Contact Details&quot;](5)" classname="com.runner.FeatureRunner" time="12.76">
+    <system-out><![CDATA[
+Scenario: Successfully adding an emergency contact                &amp#27;[90m# src/test/resources/Features/Emergency_Contacts.feature:3&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m                           &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI am on the Emergency Contacts page&amp#27;[0m                         &amp#27;[90m# com.stepdefinitions.EmergencyContactsSteps.i_am_on_the_emergency_contacts_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Add"&amp#27;[0m&amp#27;[32m button to add a new emergency contact&amp#27;[0m &amp#27;[90m# com.stepdefinitions.EmergencyContactsSteps.i_click_on_the_button_to_add_a_new_emergency_contact(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the emergency contact name as &amp#27;[0m&amp#27;[32m&amp#27;[1m"John Doe"&amp#27;[0m            &amp#27;[90m# com.stepdefinitions.EmergencyContactsSteps.i_enter_the_emergency_contact_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the relationship as &amp#27;[0m&amp#27;[32m&amp#27;[1m"Brother"&amp#27;[0m                       &amp#27;[90m# com.stepdefinitions.EmergencyContactsSteps.i_enter_the_relationship(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the home phone as &amp#27;[0m&amp#27;[32m&amp#27;[1m"123-456-7890"&amp#27;[0m                    &amp#27;[90m# com.stepdefinitions.EmergencyContactsSteps.i_enter_the_home_phone(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the mobile phone as &amp#27;[0m&amp#27;[32m&amp#27;[1m"987-654-3210"&amp#27;[0m                  &amp#27;[90m# com.stepdefinitions.EmergencyContactsSteps.i_enter_the_mobile_phone(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI click the save button to save Emergency contact details&amp#27;[0m  &amp#27;[90m# com.stepdefinitions.EmergencyContactsSteps.i_click_the_save_button()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful login with valid credentials&quot;, &quot;Testing Login and Logout functionality on OrangeHRM website&quot;](6)" classname="com.runner.FeatureRunner" time="9.179">
+    <system-out><![CDATA[
+Scenario: Successful login with valid credentials       &amp#27;[90m# src/test/resources/Features/Login_Logout.feature:5&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the OrangeHRM login page&amp#27;[0m                &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_on_the_orangehrm_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.iEnterInvalidUsernameAndValidPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be logged in successfully&amp#27;[0m               &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_should_be_logged_in_successfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Unsuccessful login with invalid username&quot;, &quot;Testing Login and Logout functionality on OrangeHRM website&quot;](7)" classname="com.runner.FeatureRunner" time="8.701">
+    <failure message="Error message is not displayed as expected expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message is not displayed as expected expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.stepdefinitions.LoginLogoutTestSteps.i_Should_See_An_Error_Message_ForInvalid_Username(LoginLogoutTestSteps.java:102)
+	at ✽.I should see an error message for invalid credentials(file:///C:/Users/imsan/Videos/eclipse_ws/carnation24a-master/src/test/resources/Features/Login_Logout.feature:14)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Unsuccessful login with invalid username            &amp#27;[90m# src/test/resources/Features/Login_Logout.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the OrangeHRM login page&amp#27;[0m                      &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_on_the_orangehrm_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalidUser"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin123"&amp#27;[0m &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.iEnterInvalidUsernameAndValidPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see an error message for invalid credentials&amp#27;[0m  &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_Should_See_An_Error_Message_ForInvalid_Username()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Error message is not displayed as expected expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.stepdefinitions.LoginLogoutTestSteps.i_Should_See_An_Error_Message_ForInvalid_Username(LoginLogoutTestSteps.java:102)
+	at ✽.I should see an error message for invalid credentials(file:///C:/Users/imsan/Videos/eclipse_ws/carnation24a-master/src/test/resources/Features/Login_Logout.feature:14)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Unsuccessful login with invalid password&quot;, &quot;Testing Login and Logout functionality on OrangeHRM website&quot;](8)" classname="com.runner.FeatureRunner" time="8.729">
+    <failure message="Error message is not displayed as expected expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error message is not displayed as expected expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.stepdefinitions.LoginLogoutTestSteps.i_Should_See_An_Error_Message_ForInvalid_Username(LoginLogoutTestSteps.java:102)
+	at ✽.I should see an error message for invalid credentials(file:///C:/Users/imsan/Videos/eclipse_ws/carnation24a-master/src/test/resources/Features/Login_Logout.feature:20)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Unsuccessful login with invalid password           &amp#27;[90m# src/test/resources/Features/Login_Logout.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the OrangeHRM login page&amp#27;[0m                     &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_on_the_orangehrm_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter username &amp#27;[0m&amp#27;[32m&amp#27;[1m"Admin"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"admin1243"&amp#27;[0m     &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.iEnterInvalidUsernameAndValidPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mI should see an error message for invalid credentials&amp#27;[0m &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_Should_See_An_Error_Message_ForInvalid_Username()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Error message is not displayed as expected expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at com.stepdefinitions.LoginLogoutTestSteps.i_Should_See_An_Error_Message_ForInvalid_Username(LoginLogoutTestSteps.java:102)
+	at ✽.I should see an error message for invalid credentials(file:///C:/Users/imsan/Videos/eclipse_ws/carnation24a-master/src/test/resources/Features/Login_Logout.feature:20)
+&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful logout&quot;, &quot;Testing Login and Logout functionality on OrangeHRM website&quot;](9)" classname="com.runner.FeatureRunner" time="11.431">
+    <system-out><![CDATA[
+Scenario: Successful logout                     &amp#27;[90m# src/test/resources/Features/Login_Logout.feature:23&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m         &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the logout button&amp#27;[0m             &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_click_on_the_logout_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be redirected to the login page&amp#27;[0m &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_should_be_redirected_to_the_login_page()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Add a new membership to an employee&apos;s profile&quot;, &quot;Memberships Page&quot;](10)" classname="com.runner.FeatureRunner" time="12.196">
+    <system-out><![CDATA[
+Scenario: Add a new membership to an employee's profile                                                                                                                               &amp#27;[90m# src/test/resources/Features/Memberships.feature:3&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m                                                                                                                                               &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI navigate to the Memberships page for employee&amp#27;[0m                                                                                                                                 &amp#27;[90m# com.stepdefinitions.MembershipsSteps.iNavigateToTheMembershipsPageForEmployee()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Add"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                                                                                                                                                    &amp#27;[90m# com.stepdefinitions.MembershipsSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill in the membership details with name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Premium Membership"&amp#27;[0m&amp#27;[32m, paid by &amp#27;[0m&amp#27;[32m&amp#27;[1m"Company"&amp#27;[0m&amp#27;[32m, amount &amp#27;[0m&amp#27;[32m&amp#27;[1m"100"&amp#27;[0m&amp#27;[32m, currency &amp#27;[0m&amp#27;[32m&amp#27;[1m"USD"&amp#27;[0m&amp#27;[32m, commencement date &amp#27;[0m&amp#27;[32m&amp#27;[1m"2025-01-01"&amp#27;[0m&amp#27;[32m, and renewal date &amp#27;[0m&amp#27;[32m&amp#27;[1m"2026-01-01"&amp#27;[0m &amp#27;[90m# com.stepdefinitions.MembershipsSteps.iFillInTheMembershipDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Save"&amp#27;[0m&amp#27;[32m button&amp#27;[0m                                                                                                                                                    &amp#27;[90m# com.stepdefinitions.MembershipsSteps.iClickOnTheButton(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe membership should be saved successfully&amp#27;[0m                                                                                                                                    &amp#27;[90m# com.stepdefinitions.MembershipsSteps.theMembershipShouldBeSavedSuccessfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Persoanl details fun&quot;, &quot;Verify ESS user can able to edit some certain fields on Personal Details&quot;](11)" classname="com.runner.FeatureRunner" time="21.134">
+    <system-out><![CDATA[
+Scenario: Persoanl details fun                    &amp#27;[90m# src/test/resources/Features/Personal_Details.feature:2&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am on the OrangeHRM login page&amp#27;[0m          &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_on_the_orangehrm_login_page()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI enter valid username and valid password&amp#27;[0m &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_enter_valid_username_and_valid_password()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI should be logged in successfully&amp#27;[0m        &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_should_be_logged_in_successfully()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click on &amp#27;[0m&amp#27;[32m&amp#27;[1m"My Info"&amp#27;[0m&amp#27;[32m on the top menu&amp#27;[0m       &amp#27;[90m# com.stepdefinitions.PersonalDetailsSteps.iClickOnOnTheTopMenu(java.lang.String)&amp#27;[0m
+Full path: C:/Users/imsan/Downloads/photo.jpeg
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill in all personal details:&amp#27;[0m             &amp#27;[90m# com.stepdefinitions.PersonalDetailsSteps.fill(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | FullName1 | FullName2 | FullName3 | EmployeeId | OtherId | DriversLicenseNumber | LicenseExpiryDate | DateOfBirth |
+    | Sandip    | Kumar     | Sharma    | 123456     | 789101  | DL123456789          | 2025-12-31        | 1990-01-15  |
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successfully adding an Qualification Page&quot;, &quot;Update Qualification Details&quot;](12)" classname="com.runner.FeatureRunner" time="11.222">
+    <system-out><![CDATA[
+Scenario: Successfully adding an Qualification Page      &amp#27;[90m# src/test/resources/Features/Qualifications.feature:3&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m                  &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI am on the Qualifications page&amp#27;[0m                    &amp#27;[90m# com.stepdefinitions.QualificationsSteps.i_am_on_the_Qualifications_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI click the "Add" button&amp#27;[0m                          &amp#27;[90m# com.stepdefinitions.QualificationsSteps.i_click_the_Add_button()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m"TCS"&amp#27;[0m&amp#27;[32m as the company name&amp#27;[0m                  &amp#27;[90m# com.stepdefinitions.QualificationsSteps.i_enter_as_the_company_name(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter &amp#27;[0m&amp#27;[32m&amp#27;[1m"Software Engineer"&amp#27;[0m&amp#27;[32m as the job title&amp#27;[0m       &amp#27;[90m# com.stepdefinitions.QualificationsSteps.i_enter_as_the_job_title(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the qualification start date to &amp#27;[0m&amp#27;[32m&amp#27;[1m"2020-01-01"&amp#27;[0m &amp#27;[90m# com.stepdefinitions.QualificationsSteps.i_set_the_qualification_start_date_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI set the qualification end date to &amp#27;[0m&amp#27;[32m&amp#27;[1m"2025-01-01"&amp#27;[0m   &amp#27;[90m# com.stepdefinitions.QualificationsSteps.i_set_the_qualification_end_date_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click the "Save" button&amp#27;[0m                          &amp#27;[90m# com.stepdefinitions.QualificationsSteps.i_click_the_Save_button()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Submit a claim event and currency selection&quot;, &quot;Submit Claim&quot;](13)" classname="com.runner.FeatureRunner" time="11.385">
+    <system-out><![CDATA[
+Scenario: Submit a claim event and currency selection &amp#27;[90m# src/test/resources/Features/SubmitClaim.feature:3&amp#27;[0m
+C:\Users\imsan\Videos\eclipse_ws\carnation24a-master/target/screenshots/
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am logged in to the OrangeHRM&amp#27;[0m               &amp#27;[90m# com.stepdefinitions.LoginLogoutTestSteps.i_am_logged_in_to_the_OrangeHRM_platform()&amp#27;[0m
+Navigated to the Submit Claim page.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI am on the submit claim page&amp#27;[0m                   &amp#27;[90m# com.stepdefinitions.SubmitClaimSteps.iAmOnTheSubmitClaimPage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI select a claim event&amp#27;[0m                         &amp#27;[90m# com.stepdefinitions.SubmitClaimSteps.iSelectAClaimEvent()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select a claim currency&amp#27;[0m                       &amp#27;[90m# com.stepdefinitions.SubmitClaimSteps.iSelectAClaimCurrency()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI click on the submit claim create button&amp#27;[0m       &amp#27;[90m# com.stepdefinitions.SubmitClaimSteps.iClickOnTheSubmitClaimCreateButton()&amp#27;[0m
+Claim has been submitted successfully.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe claim is created successfully&amp#27;[0m              &amp#27;[90m# com.stepdefinitions.SubmitClaimSteps.theClaimIsCreatedSuccessfully()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
