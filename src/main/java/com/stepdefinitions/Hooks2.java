@@ -8,9 +8,9 @@ import com.testingshastra.util.App;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-public class Hooks1 {
+public class Hooks2 {
 
-	private static final Logger LOG = Logger.getLogger(Hooks.class);
+	private static final Logger LOG = Logger.getLogger(Hooks2.class);
 
 //	RemoteWebDriver driver;
 //	ThreadLocal<RemoteWebDriver> thread = new ThreadLocal<RemoteWebDriver>();
